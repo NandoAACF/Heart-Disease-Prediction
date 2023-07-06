@@ -3,7 +3,7 @@ from page_predict import show_predict
 from page_insight import show_insight
 from page_model_information import show_model_information
 
-page = st.sidebar.selectbox("Predict Or Insight", ("Predict", "Insight", "Model Information"))
+page = st.sidebar.selectbox("Choose Option", ("Predict", "Insight", "Model Information"))
 
 if page == 'Predict':
     show_predict()
