@@ -25,7 +25,7 @@ def show_insight():
 
     plt.title('Heart Disease Distribution')
     st.pyplot(plt)
-    st.caption('Tampak bahwa distribusi keduanya seimbang (balance)')
+    st.write('Tampak bahwa distribusi keduanya seimbang (balance)')
 
 
 
@@ -46,7 +46,7 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Umur')
     st.pyplot(plt)
-    st.caption('Tampak bahwa rentang umur 51 tahun ke atas cukup rawan terkena penyakit jantung. Semakin bertambahnya umur, maka peluang terkena penyakit jantung semakin besar.')
+    st.write('Tampak bahwa rentang umur 51 tahun ke atas cukup rawan terkena penyakit jantung. Semakin bertambahnya umur, maka peluang terkena penyakit jantung semakin besar.')
     
 
 
@@ -57,7 +57,7 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Maximum Heart Rate')
     st.pyplot(plt)
-    st.caption('Terlihat jelas bahwa sebagian besar orang yang menderita penyakit jantung memiliki maximum heart rate di bawah 130. Dari grafik tersebut tampak bahwa peluang menderita penyakit jantung semakin besar jika maximum heart ratenya semakin rendah.')
+    st.write('Terlihat jelas bahwa sebagian besar orang yang menderita penyakit jantung memiliki maximum heart rate di bawah 130. Dari grafik tersebut tampak bahwa peluang menderita penyakit jantung semakin besar jika maximum heart ratenya semakin rendah.')
 
 
 
@@ -73,8 +73,8 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Jenis Kelamin')
     st.pyplot(plt)
-    st.caption('Ya, tampak ada perbedaan yang sangat signifikan mengenai penderita penyakit jantung berdasarkan jenis kelamin.')
-    st.caption('Laki-laki lebih rawan menderita penyakit jantung dibandingkan perempuan.')
+    st.write('Ya, tampak ada perbedaan yang sangat signifikan mengenai penderita penyakit jantung berdasarkan jenis kelamin.')
+    st.write('Laki-laki lebih rawan menderita penyakit jantung dibandingkan perempuan.')
 
 
 
@@ -90,8 +90,8 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Tipe Chest Pain')
     st.pyplot(plt)
-    st.caption('Chestpain asymptomatic adalah jenis chestpain yang paling rawan memicu penyakit jantung.')
-    st.caption('Hal tersebut tampak pada grafik di atas dengan perbedaan yang sangat signifikan dibanding ketiga jenis chestpain yang lain.')
+    st.write('Chestpain asymptomatic adalah jenis chestpain yang paling rawan memicu penyakit jantung.')
+    st.write('Hal tersebut tampak pada grafik di atas dengan perbedaan yang sangat signifikan dibanding ketiga jenis chestpain yang lain.')
 
 
 
@@ -103,8 +103,8 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Tekanan Darah')
     st.pyplot(plt)
-    st.caption('Tidak terlalu tampak perbedaan yang signifikan pada grafik di atas.')
-    st.caption('Namun, tampak bahwa sebagian besar orang yang tidak menderita penyakit jantung memiliki tekanan darah antara 120-130 mm Hg.')
+    st.write('Tidak terlalu tampak perbedaan yang signifikan pada grafik di atas.')
+    st.write('Namun, tampak bahwa sebagian besar orang yang tidak menderita penyakit jantung memiliki tekanan darah antara 120-130 mm Hg.')
 
 
 
@@ -125,7 +125,7 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Tingkat Kolesterol')
     st.pyplot(plt)
-    st.caption('Tampak bahwa orang dengan tingkat kolesterol di atas 251 mm/dL menderita penyakit jantung. Maka, lebih baik menjaga tingkat kolesterol antara 151-250 mm/dL agar terhindar dari penyakit jantung.')
+    st.write('Tampak bahwa orang dengan tingkat kolesterol di atas 251 mm/dL menderita penyakit jantung. Maka, lebih baik menjaga tingkat kolesterol antara 151-250 mm/dL agar terhindar dari penyakit jantung.')
 
 
 
@@ -141,11 +141,11 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Fasting Blood Sugar')
     st.pyplot(plt)
-    st.caption('Keterangan:')
-    st.caption('0 = Kadar gula darah < 120 mg/dL')
-    st.caption('1 = Kadar gula darah > 120 mg/dL')
-    st.caption('Ya. Tampak bahwa sebagian besar orang yang memiliki kadar gula darah di atas 120 mg/dL memiliki penyakit jantung.')
-    st.caption('Hal tersebut masuk akal karena tingginya kadar gula darah dapat merusak pembuluh darah dan menyebabkan komplikasi penyakit jantung serius.')
+    st.write('Keterangan:')
+    st.write('0 = Kadar gula darah < 120 mg/dL')
+    st.write('1 = Kadar gula darah > 120 mg/dL')
+    st.write('Ya. Tampak bahwa sebagian besar orang yang memiliki kadar gula darah di atas 120 mg/dL memiliki penyakit jantung.')
+    st.write('Hal tersebut masuk akal karena tingginya kadar gula darah dapat merusak pembuluh darah dan menyebabkan komplikasi penyakit jantung serius.')
 
 
 
@@ -160,7 +160,7 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Resting Electrocardiogram ')
     st.pyplot(plt)
-    st.caption('Tampak bahwa tidak ada perbedaan yang signifikan antara ketiga hasil dari resting electrocardiogram terhadap penyakit jantung.')
+    st.write('Tampak bahwa tidak ada perbedaan yang signifikan antara ketiga hasil dari resting electrocardiogram terhadap penyakit jantung.')
 
 
 
@@ -170,8 +170,8 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Tingkat Depresi Segmen ST')
     st.pyplot(plt)
-    st.caption('Tampak bahwa orang yang memiliki hasil tes depresi segmen ST di atas 1 menderita penyakit jantung.')
-    st.caption('Dengan kata lain, semakin besar tingkat depresi segmen ST, maka semakin besar pula kemungkinan menderita penyakit jantung.')
+    st.write('Tampak bahwa orang yang memiliki hasil tes depresi segmen ST di atas 1 menderita penyakit jantung.')
+    st.write('Dengan kata lain, semakin besar tingkat depresi segmen ST, maka semakin besar pula kemungkinan menderita penyakit jantung.')
 
 
 
@@ -187,8 +187,8 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Angina Akibat Olahraga')
     st.pyplot(plt)
-    st.caption('Ya, munculnya angina setelah berolahraga dapat menjadi indikator bahwa seseorang menderita penyakit jantung.')
-    st.caption('Tampak perbedaan yang sangat signifikan pada grafik di atas bahwa sebagian besar orang yang mengalami angina setelah olahraga ternyata menderita penyakit jantung.')
+    st.write('Ya, munculnya angina setelah berolahraga dapat menjadi indikator bahwa seseorang menderita penyakit jantung.')
+    st.write('Tampak perbedaan yang sangat signifikan pada grafik di atas bahwa sebagian besar orang yang mengalami angina setelah olahraga ternyata menderita penyakit jantung.')
 
 
 
@@ -205,7 +205,21 @@ def show_insight():
 
     plt.title('Heart Disease Berdasarkan Kemiringan Segmen ST')
     st.pyplot(plt)
-    st.caption('Ya, kemiringan segmen ST dapat menjadi indikasi apakah seseorang menderita penyakit jantung atau tidak.')
-    st.caption('Tampak bahwa sebagian besar orang yang memiliki kemiringan segmen ST datar dan menurun ternyata menderita penyakit jantung.')
-    st.caption('Jika hasil tes ST seseorang menunjukkan bahwa segmen ST-nya datar atau menurun, maka orang tersebut memiliki kemungkinan besar menderita penyakit jantung.')
+    st.write('Ya, kemiringan segmen ST dapat menjadi indikasi apakah seseorang menderita penyakit jantung atau tidak.')
+    st.write('Tampak bahwa sebagian besar orang yang memiliki kemiringan segmen ST datar dan menurun ternyata menderita penyakit jantung.')
+    st.write('Jika hasil tes ST seseorang menunjukkan bahwa segmen ST-nya datar atau menurun, maka orang tersebut memiliki kemungkinan besar menderita penyakit jantung.')
+
+
+
+
+    st.markdown("## **Kesimpulan**")
+    st.write('**Ciri-ciri orang menderita penyakit jantung:**')
+    st.write('1. Detak jantung maksimal di bawah 130 bpm')
+    st.write('2. Memiliki sakit dada asymptomatic')
+    st.write('3. Memiliki kadar gula darah di atas 120 mg/dL')
+    st.write('4. Memiliki kolesterol di atas 251 mm/dL')
+    st.write('5. Memiliki hasil tes depresi segmen ST di atas 1')
+    st.write('6. Mengalami angina setelah berolahraga')
+    st.write('7. Hasil tes kemiringan segmen ST datar atau menurun')
+    st.write('8. Laki-laki dan orang yang berusia di atas 51 memiliki kemungkinan lebih besar menderita penyakit jantung')
 
